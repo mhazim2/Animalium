@@ -7,9 +7,18 @@
     tools:context="com.impact.mhazim.animalium.Main2Activity">
 
     <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_below="@+id/logo"
+        android:id="@+id/mEditTextNama"
+        android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo" />
+        android:hint="Masukkan Nama Anda!"/>
 
     <Button
         android:id="@+id/btnMasuk"
